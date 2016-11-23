@@ -1,12 +1,12 @@
 //
-//  ViewController.m
+//  DetectFingerPrintViewController.m
 //  FingerprintDetection
 //
 //  Created by Ducere on 08/08/16.
 //  Copyright © 2016 Ducere. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "DetectFingerPrintViewController.h"
 #import "APIRequestManager.h"
 #import "KeychainItemWrapper.h"
 #import "ReachabilityNetwork.h"
@@ -16,14 +16,14 @@
 #define KSERVER_END_POINT  @"http://requestb.in/1kiw3yb1"
 #define KFINGERPRINTSTATUS  @"fingerPrintAdded"
 
-@interface ViewController (){
+@interface DetectFingerPrintViewController (){
     KeychainItemWrapper *keychainItem;
 }
 @property (weak, nonatomic) IBOutlet UIButton* fingerPrintRecogntionButton;
 -(IBAction)fingerPrintRecogntionButtonTapped:(id)sender;
 @end
 
-@implementation ViewController
+@implementation DetectFingerPrintViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

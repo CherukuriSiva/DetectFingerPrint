@@ -7,39 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18C70C3A1DE573EA007D94F0 /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C70C391DE573EA007D94F0 /* KeychainItemWrapper.m */; };
+		18C70C3D1DE57402007D94F0 /* DetectFingerPrintViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C70C3C1DE57402007D94F0 /* DetectFingerPrintViewController.m */; };
+		18C70C401DE5741E007D94F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C70C3F1DE5741E007D94F0 /* AppDelegate.m */; };
+		18C70C471DE5742A007D94F0 /* APIRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C70C421DE5742A007D94F0 /* APIRequestManager.m */; };
+		18C70C481DE5742A007D94F0 /* ReachabilityNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C70C441DE5742A007D94F0 /* ReachabilityNetwork.m */; };
+		18C70C491DE5742A007D94F0 /* STHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C70C461DE5742A007D94F0 /* STHTTPRequest.m */; };
 		92A5940B1D57C60B00B275B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A5940A1D57C60B00B275B9 /* main.m */; };
-		92A5940E1D57C60B00B275B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A5940D1D57C60B00B275B9 /* AppDelegate.m */; };
-		92A594111D57C60B00B275B9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A594101D57C60B00B275B9 /* ViewController.m */; };
 		92A594141D57C60B00B275B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92A594121D57C60B00B275B9 /* Main.storyboard */; };
 		92A594161D57C60B00B275B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92A594151D57C60B00B275B9 /* Assets.xcassets */; };
 		92A594191D57C60B00B275B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92A594171D57C60B00B275B9 /* LaunchScreen.storyboard */; };
 		92A594211D57DE9A00B275B9 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92A594201D57DE9A00B275B9 /* Security.framework */; };
-		92A594241D57DEE100B275B9 /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A594231D57DEE100B275B9 /* KeychainItemWrapper.m */; };
-		92A5942A1D57E23100B275B9 /* APIRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A594291D57E23100B275B9 /* APIRequestManager.m */; };
-		92A5942D1D57E24000B275B9 /* STHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A5942C1D57E24000B275B9 /* STHTTPRequest.m */; };
-		92A594301D57E2B100B275B9 /* ReachabilityNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A5942F1D57E2B100B275B9 /* ReachabilityNetwork.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18C70C381DE573EA007D94F0 /* KeychainItemWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KeychainItemWrapper.h; path = Helpers/KeychainItemWrapper.h; sourceTree = "<group>"; };
+		18C70C391DE573EA007D94F0 /* KeychainItemWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KeychainItemWrapper.m; path = Helpers/KeychainItemWrapper.m; sourceTree = "<group>"; };
+		18C70C3B1DE57402007D94F0 /* DetectFingerPrintViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetectFingerPrintViewController.h; path = "View Controllers/DetectFingerPrintViewController.h"; sourceTree = "<group>"; };
+		18C70C3C1DE57402007D94F0 /* DetectFingerPrintViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetectFingerPrintViewController.m; path = "View Controllers/DetectFingerPrintViewController.m"; sourceTree = "<group>"; };
+		18C70C3E1DE5741E007D94F0 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Singletons/AppDelegate.h; sourceTree = "<group>"; };
+		18C70C3F1DE5741E007D94F0 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Singletons/AppDelegate.m; sourceTree = "<group>"; };
+		18C70C411DE5742A007D94F0 /* APIRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APIRequestManager.h; path = "Server Calls/APIRequestManager.h"; sourceTree = "<group>"; };
+		18C70C421DE5742A007D94F0 /* APIRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APIRequestManager.m; path = "Server Calls/APIRequestManager.m"; sourceTree = "<group>"; };
+		18C70C431DE5742A007D94F0 /* ReachabilityNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReachabilityNetwork.h; path = "Server Calls/ReachabilityNetwork.h"; sourceTree = "<group>"; };
+		18C70C441DE5742A007D94F0 /* ReachabilityNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReachabilityNetwork.m; path = "Server Calls/ReachabilityNetwork.m"; sourceTree = "<group>"; };
+		18C70C451DE5742A007D94F0 /* STHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STHTTPRequest.h; path = "Server Calls/STHTTPRequest.h"; sourceTree = "<group>"; };
+		18C70C461DE5742A007D94F0 /* STHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STHTTPRequest.m; path = "Server Calls/STHTTPRequest.m"; sourceTree = "<group>"; };
 		92A594061D57C60B00B275B9 /* FingerprintDetection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FingerprintDetection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92A5940A1D57C60B00B275B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		92A5940C1D57C60B00B275B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		92A5940D1D57C60B00B275B9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		92A5940F1D57C60B00B275B9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		92A594101D57C60B00B275B9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		92A594131D57C60B00B275B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		92A594151D57C60B00B275B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92A594181D57C60B00B275B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		92A5941A1D57C60B00B275B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92A594201D57DE9A00B275B9 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		92A594221D57DEE100B275B9 /* KeychainItemWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainItemWrapper.h; sourceTree = "<group>"; };
-		92A594231D57DEE100B275B9 /* KeychainItemWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainItemWrapper.m; sourceTree = "<group>"; };
-		92A594281D57E23100B275B9 /* APIRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIRequestManager.h; sourceTree = "<group>"; };
-		92A594291D57E23100B275B9 /* APIRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIRequestManager.m; sourceTree = "<group>"; };
-		92A5942B1D57E24000B275B9 /* STHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STHTTPRequest.h; sourceTree = "<group>"; };
-		92A5942C1D57E24000B275B9 /* STHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STHTTPRequest.m; sourceTree = "<group>"; };
-		92A5942E1D57E2B100B275B9 /* ReachabilityNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReachabilityNetwork.h; sourceTree = "<group>"; };
-		92A5942F1D57E2B100B275B9 /* ReachabilityNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReachabilityNetwork.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +54,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18C70C351DE57355007D94F0 /* Singletons */ = {
+			isa = PBXGroup;
+			children = (
+				18C70C3E1DE5741E007D94F0 /* AppDelegate.h */,
+				18C70C3F1DE5741E007D94F0 /* AppDelegate.m */,
+			);
+			name = Singletons;
+			sourceTree = "<group>";
+		};
+		18C70C361DE57362007D94F0 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				18C70C3B1DE57402007D94F0 /* DetectFingerPrintViewController.h */,
+				18C70C3C1DE57402007D94F0 /* DetectFingerPrintViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		18C70C371DE57375007D94F0 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				18C70C381DE573EA007D94F0 /* KeychainItemWrapper.h */,
+				18C70C391DE573EA007D94F0 /* KeychainItemWrapper.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
 		92A593FD1D57C60B00B275B9 = {
 			isa = PBXGroup;
 			children = (
@@ -74,13 +101,10 @@
 		92A594081D57C60B00B275B9 /* FingerprintDetection */ = {
 			isa = PBXGroup;
 			children = (
+				18C70C371DE57375007D94F0 /* Helpers */,
+				18C70C361DE57362007D94F0 /* View Controllers */,
+				18C70C351DE57355007D94F0 /* Singletons */,
 				92A594271D57E1FD00B275B9 /* Server Calls */,
-				92A5940C1D57C60B00B275B9 /* AppDelegate.h */,
-				92A5940D1D57C60B00B275B9 /* AppDelegate.m */,
-				92A5940F1D57C60B00B275B9 /* ViewController.h */,
-				92A594101D57C60B00B275B9 /* ViewController.m */,
-				92A594221D57DEE100B275B9 /* KeychainItemWrapper.h */,
-				92A594231D57DEE100B275B9 /* KeychainItemWrapper.m */,
 				92A594121D57C60B00B275B9 /* Main.storyboard */,
 				92A594151D57C60B00B275B9 /* Assets.xcassets */,
 				92A594171D57C60B00B275B9 /* LaunchScreen.storyboard */,
@@ -101,12 +125,12 @@
 		92A594271D57E1FD00B275B9 /* Server Calls */ = {
 			isa = PBXGroup;
 			children = (
-				92A5942B1D57E24000B275B9 /* STHTTPRequest.h */,
-				92A5942C1D57E24000B275B9 /* STHTTPRequest.m */,
-				92A594281D57E23100B275B9 /* APIRequestManager.h */,
-				92A594291D57E23100B275B9 /* APIRequestManager.m */,
-				92A5942E1D57E2B100B275B9 /* ReachabilityNetwork.h */,
-				92A5942F1D57E2B100B275B9 /* ReachabilityNetwork.m */,
+				18C70C411DE5742A007D94F0 /* APIRequestManager.h */,
+				18C70C421DE5742A007D94F0 /* APIRequestManager.m */,
+				18C70C431DE5742A007D94F0 /* ReachabilityNetwork.h */,
+				18C70C441DE5742A007D94F0 /* ReachabilityNetwork.m */,
+				18C70C451DE5742A007D94F0 /* STHTTPRequest.h */,
+				18C70C461DE5742A007D94F0 /* STHTTPRequest.m */,
 			);
 			name = "Server Calls";
 			sourceTree = "<group>";
@@ -182,12 +206,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92A5942D1D57E24000B275B9 /* STHTTPRequest.m in Sources */,
-				92A594301D57E2B100B275B9 /* ReachabilityNetwork.m in Sources */,
-				92A5942A1D57E23100B275B9 /* APIRequestManager.m in Sources */,
-				92A594241D57DEE100B275B9 /* KeychainItemWrapper.m in Sources */,
-				92A594111D57C60B00B275B9 /* ViewController.m in Sources */,
-				92A5940E1D57C60B00B275B9 /* AppDelegate.m in Sources */,
+				18C70C3A1DE573EA007D94F0 /* KeychainItemWrapper.m in Sources */,
+				18C70C471DE5742A007D94F0 /* APIRequestManager.m in Sources */,
+				18C70C481DE5742A007D94F0 /* ReachabilityNetwork.m in Sources */,
+				18C70C401DE5741E007D94F0 /* AppDelegate.m in Sources */,
+				18C70C3D1DE57402007D94F0 /* DetectFingerPrintViewController.m in Sources */,
+				18C70C491DE5742A007D94F0 /* STHTTPRequest.m in Sources */,
 				92A5940B1D57C60B00B275B9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  DetectFingerPrintViewController.h
 //  FingerprintDetection
 //
 //  Created by Ducere on 08/08/16.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface DetectFingerPrintViewController : UIViewController
 
 
 @end
